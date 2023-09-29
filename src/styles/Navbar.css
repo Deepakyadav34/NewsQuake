@@ -1,0 +1,85 @@
+/* Update Navbar.css */
+
+.navbar {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px 0;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.navbar-brand span {
+  color: #555;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-item {
+  margin-left: 20px;
+}
+
+.nav-link {
+  color: #555;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+}
+
+.nav-link:hover {
+  background-color: #007bff; /* Change the hover background color */
+  color: #fff; /* Change the text color on hover */
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.toggle-line {
+  height: 2px;
+  width: 25px;
+  background-color: #555;
+  margin: 4px 0;
+}
+
+.open .toggle-line {
+  background-color: transparent;
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-label {
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #080320;
+  padding: 8px; /* Add padding to create space between the links */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  display: none;
+  overscroll-behavior-inline: auto;
+}
+
+.open .dropdown-menu {
+  display: block;
+}

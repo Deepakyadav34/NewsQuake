@@ -1,0 +1,21 @@
+/* About.css */
+
+.about-container {
+    padding: 20px;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}

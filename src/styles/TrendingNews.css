@@ -1,0 +1,95 @@
+/* TrendingNews.css */
+
+.trending-news {
+    margin-top: 20px;
+  }
+  
+  .trending-news h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .trending-news-item {
+    margin-bottom: 30px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(231, 93, 93, 0.1);
+    border-radius: 6px;
+  }
+  
+  .trending-news-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 6px;
+  }
+  
+  .trending-news-item h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  
+  .trending-news-item p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 12px;
+  }
+  
+  .button {
+    background-color: #30df47;
+    color: white;/* TrendingNews.css */
+
+    /* ... (existing styles) ... */
+    
+    .button {
+      background-color: #83d734;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+      text-decoration: none;
+      display: inline-block;
+      position: relative; /* Add this line to enable the hover effect */
+    }
+    
+    .button:hover {
+      background-color: #8dc73c;
+    }
+    
+    /* New styles for hover effect */
+    .button::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 4px;
+      opacity: 0;
+      transition: opacity 0.3s ease-in-out;
+    }
+    
+    .button:hover::after {
+      opacity: 1;
+    }
+    
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .button:hover {
+    background-color: #3ad381;
+  }
+  
